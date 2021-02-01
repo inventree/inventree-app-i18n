@@ -8,7 +8,7 @@ import argparse
 import os
 
 
-def manually_translate(locale, **kwargs):
+def manually_translate(locale, args):
     """
     Manually translate a single file
     """
@@ -16,8 +16,6 @@ def manually_translate(locale, **kwargs):
     MY_DIR = os.path.dirname(os.path.realpath(__file__))
     
     locale_filename = f'app_{locale}.arb'
-
-    print(f"Entering translations for '{locale_filename}'")
 
     locale_file = os.path.join(MY_DIR, locale_filename)
 
@@ -38,7 +36,29 @@ def manually_translate(locale, **kwargs):
     keyboard_exited = False
     first_message = True
 
+    total_keys = len(translation_keys)
+    translated_keys = 0
+    untranslated_keys = 0
     new_messages = 0
+
+    # First extract total number of "untranslated" strings
+    for key in translation_keys:
+        if key not in locale_data.keys():
+            untranslated_keys += 1
+        else:
+            translated_keys += 1
+
+    if args.stats:
+        if total_keys > 0:
+                completion_percent = int(translated_keys / total_keys * 100)
+        else:
+            completion_percent = 0
+
+        print(f"'{locale}' translations: {translated_keys} / {total_keys} ({completion_percent}%)")
+
+        return
+
+    print(f"Entering translations for '{locale_filename}'")
 
     for key in translation_keys:
         if key not in locale_data.keys():
@@ -64,6 +84,7 @@ def manually_translate(locale, **kwargs):
 
             locale_data[key] = translation
             new_messages += 1
+            translated_keys += 1
 
     if new_messages > 0:
         print(f"Added {new_messages} new translation strings")
@@ -81,6 +102,7 @@ if __name__ == '__main__':
 
     parser.add_argument('locale', help='Language code', action='store')
 
+    parser.add_argument('--stats', help='Show stats for specified locale', action='store_true')
     parser.add_argument('--fake', help='Do not store updated translations', action='store_true')
 
     args = parser.parse_args()
@@ -113,6 +135,4 @@ if __name__ == '__main__':
     # Sort alphabetically
     translation_keys = sorted(translation_keys)
 
-    manually_translate(args.locale, fake=args.fake)
-
-    print("Done!")
+    manually_translate(args.locale, args)
