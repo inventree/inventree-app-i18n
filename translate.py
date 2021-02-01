@@ -58,6 +58,20 @@ def manually_translate(locale, args):
 
         return
 
+    # First, remove any extra keys in the target file, which do not exist in the template file
+    keys = [k for k in locale_data.keys()]
+
+    for key in keys:
+
+        key = key.strip()
+
+        if key.startswith('@'):
+            continue
+
+        if key not in translation_keys:
+            print(f"Removing extra key '{key}'")
+            del locale_data[key]
+
     print(f"Entering translations for '{locale_filename}'")
 
     for key in translation_keys:
@@ -68,8 +82,8 @@ def manually_translate(locale, args):
                 print("")
                 print(f"Enter '{locale}' translation for each string,")
                 print("or leave empty (press enter) to skip.")
-                print("")
                 print("Press Ctrl-C to exit")
+                print()
 
             message = arb_data[key]
 
@@ -86,12 +100,15 @@ def manually_translate(locale, args):
             new_messages += 1
             translated_keys += 1
 
+    print()
+
     if new_messages > 0:
         print(f"Added {new_messages} new translation strings")
 
-        if not args.fake:
-            with open(locale_file, 'w') as output:
-                output.write(json.dumps(locale_data, indent=2))
+    if not args.fake:
+        with open(locale_file, 'w') as output:
+            print(f"Writing results to '{locale_file}'")
+            output.write(json.dumps(locale_data, indent=2))
 
 
 if __name__ == '__main__':
