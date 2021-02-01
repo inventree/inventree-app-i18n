@@ -8,52 +8,20 @@ import argparse
 import os
 
 
-if __name__ == '__main__':
+def manually_translate(locale, **kwargs):
+    """
+    Manually translate a single file
+    """
 
     MY_DIR = os.path.dirname(os.path.realpath(__file__))
     
-    parser = argparse.ArgumentParser(description="InvenTree app translation helper")
+    locale_filename = f'app_{locale}.arb'
 
-    parser.add_argument('locale', help='Language code', action='store')
+    print(f"Entering translations for '{locale_filename}'")
 
-    parser.add_argument('--fake', help='Do not store updated translations', action='store_true')
+    locale_file = os.path.join(MY_DIR, locale_filename)
 
-    args = parser.parse_args()
-
-    base_locale_file = 'app_en.arb'
-
-    if not os.path.exists(os.path.join(MY_DIR, base_locale_file)):
-        print(f"Base locale file '{base_locale_file}' missing")
-        sys.exit(1)
-
-    base_locale_file = os.path.join(MY_DIR, base_locale_file)
-
-    with open(base_locale_file, 'r') as arb_data_file:
-        arb_data = json.loads(arb_data_file.read())
-
-    translation_keys = []
-
-    for key in arb_data.keys():
-
-        key = key.strip()
-
-        if len(key) == 0:
-            continue
-
-        if key.startswith('@'):
-            continue
-
-        translation_keys.append(key)
-
-    # Sort alphabetically
-    translation_keys = sorted(translation_keys)
-
-    locale = args.locale
-
-    filename = f'app_{locale}.arb'
-
-    locale_file = os.path.join(MY_DIR, filename)
-
+    # Create locale file if it does not exist
     if not os.path.exists(locale_file):
         print(f"Creating new file for locale '{locale}'")
         with open(locale_file, 'w') as f:
@@ -103,5 +71,48 @@ if __name__ == '__main__':
         if not args.fake:
             with open(locale_file, 'w') as output:
                 output.write(json.dumps(locale_data, indent=2))
+
+
+if __name__ == '__main__':
+
+    MY_DIR = os.path.dirname(os.path.realpath(__file__))
+    
+    parser = argparse.ArgumentParser(description="InvenTree app translation helper")
+
+    parser.add_argument('locale', help='Language code', action='store')
+
+    parser.add_argument('--fake', help='Do not store updated translations', action='store_true')
+
+    args = parser.parse_args()
+
+    base_locale_file = 'app_en.arb'
+
+    if not os.path.exists(os.path.join(MY_DIR, base_locale_file)):
+        print(f"Base locale file '{base_locale_file}' missing")
+        sys.exit(1)
+
+    base_locale_file = os.path.join(MY_DIR, base_locale_file)
+
+    with open(base_locale_file, 'r') as arb_data_file:
+        arb_data = json.loads(arb_data_file.read())
+
+    translation_keys = []
+
+    for key in arb_data.keys():
+
+        key = key.strip()
+
+        if len(key) == 0:
+            continue
+
+        if key.startswith('@'):
+            continue
+
+        translation_keys.append(key)
+
+    # Sort alphabetically
+    translation_keys = sorted(translation_keys)
+
+    manually_translate(args.locale, fake=args.fake)
 
     print("Done!")

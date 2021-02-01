@@ -1,0 +1,19 @@
+{
+  "@@locale": "de",
+  "actions": "Aktionen",
+  "cancel": "Stornieren",
+  "category": "Kategorie",
+  "description": "Beschreibung",
+  "error": "Error",
+  "history": "Geschichte",
+  "name": "Name",
+  "ok": "OK",
+  "part": "Teil",
+  "quantity": "Menge",
+  "required": "Erforderlich",
+  "result": "Ergebnis",
+  "save": "Sparen",
+  "scanBarcode": "Barcode scannen",
+  "search": "Suche",
+  "website": "Webseite"
+}
