@@ -1,0 +1,12 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "InvenTree",
+  "@appTitle": {
+    "description": "InvenTree application title string"
+  },
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  }
+}
