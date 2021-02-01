@@ -5,8 +5,200 @@
   "@appTitle": {
     "description": "InvenTree application title string"
   },
-  "helloWorld": "Hello World!",
-  "@helloWorld": {
-    "description": "The conventional newborn programmer greeting"
-  }
+
+  "ok": "OK",
+  "@ok": {
+    "description": "OK"
+  },
+
+  "save": "Save",
+  "@save": {
+    "description": "Save"
+  },
+
+  "actions": "Actions",
+  "@actions": {
+    "description": ""
+  },
+
+  "add": "Add",
+  "@add": {
+    "description": "add"
+  },
+
+  "addStock": "Add Stock",
+  "@addStock": {
+    "description": "add stock"
+  },
+
+  "attachImage": "Attach Image",
+  "@attachImage": {
+    "description": "Attach an image"
+  },
+
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel"
+  },
+
+  "category": "Category",
+  "@category": {},
+
+  "company": "Company",
+  "@company": {},
+
+  "companies": "Companies",
+  "@companies": {},
+
+  "count": "Count",
+  "@count": {
+    "description": "Count"
+  },
+
+  "countStock": "Count Stock",
+  "@countStock": {
+    "description": "Count Stock"
+  },
+
+  "description": "Description",
+  "@description": {},
+
+  "details": "Details",
+  "@details": {
+    "description": "details"
+  },
+
+  "edit": "Edit",
+  "@edit": {
+    "description": "edit"
+  },
+
+  "editPart": "Edit Part",
+  "@editPart": {
+    "description": "edit part"
+  },
+
+  "error": "Error",
+  "@error": {
+    "description": "Error"
+  },
+
+  "history": "History",
+  "@history": {
+    "description": "history"
+  },
+
+  "name": "Name",
+  "@name": {
+  },
+
+  "notes": "Notes",
+  "@notes": {
+    "description": "Notes"
+  },
+
+  "parent": "Parent",
+  "@parent": {},
+
+  "parentCategory": "Parent Category",
+  "@parentCategory": {},
+
+  "part": "Part",
+  "@part": {
+    "description": "Part (single)"
+  },
+
+  "parts": "Parts",
+  "@parts": {
+    "description": "Part (multiple)"
+  },
+
+  "partCategory": "Part Category",
+  "@partCategory": {},
+
+  "partCategories": "Part Categories",
+  "@partCategories": {},
+
+  "partStock": "Part Stock",
+  "@partStock": {
+    "description": "part stocK"
+  },
+
+  "scanBarcode": "Scan Barcode",
+  "@scanBarcode": {
+  },
+
+  "stock": "Stock",
+  "@stock": {
+    "description": "stock"
+  },
+
+  "stockItem": "Stock Item",
+  "@stockItem": {
+    "description": "stock item title"
+  },
+
+  "stockLocation": "Stock Location",
+  "@stockLocation": {
+    "description": "stock location"
+  },
+
+  "subcategory": "Subcategory",
+  "@subcategory": {},
+
+  "subcategories": "Subcategories",
+  "@subcategories": {},
+
+  "quantity": "Quantity",
+  "@quantity": {
+    "description": "Quantity"
+  },
+
+  "remove": "Remove",
+  "@remove": {
+    "description": "remove"
+  },
+
+  "removeStock": "Remove Stock",
+  "@removeStock": {
+    "description": "remove stock"
+  },
+
+  "result": "Result",
+  "@result": {
+    "description": ""
+  },
+
+  "required": "Required",
+  "@required": {
+    "description": "This field is required"
+  },
+
+  "search": "Search",
+  "@search": {
+    "description": "search"
+  },
+
+  "testResults": "Test Results",
+  "@testResults": {
+    "description": ""
+  },
+
+  "transfer": "Transfer",
+  "@transfer": {
+    "description": "transfer"
+  },
+
+  "transferStock": "Transfer Stock",
+  "@transferStock": {
+    "description": "transfer stock"
+  },
+
+  "value": "Value",
+  "@value": {
+    "description": "value"
+  },
+
+  "website": "Website",
+  "@website": {}
 }
