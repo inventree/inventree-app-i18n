@@ -14,6 +14,9 @@
   "about": "About",
   "@about": {},
 
+  "accountDetails": "Account Details",
+  "@accountDetails": {},
+
   "actions": "Actions",
   "@actions": {
     "description": ""
@@ -175,6 +178,9 @@
     "description": "Quantity"
   },
 
+  "releaseNotes": "Release Notes",
+  "@releaseNotes": {},
+
   "remove": "Remove",
   "@remove": {
     "description": "remove"
@@ -184,6 +190,9 @@
   "@removeStock": {
     "description": "remove stock"
   },
+
+  "reportBug": "Report Bug",
+  "@reportBug": {},
 
   "result": "Result",
   "@result": {
@@ -211,6 +220,9 @@
 
   "serverDetails": "Server Details",
   "@serverDetails": {},
+
+  "serverSettings": "Server Settings",
+  "@serverSettings": {},
 
   "testResults": "Test Results",
   "@testResults": {
