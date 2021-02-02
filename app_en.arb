@@ -11,10 +11,8 @@
     "description": "OK"
   },
 
-  "save": "Save",
-  "@save": {
-    "description": "Save"
-  },
+  "about": "About",
+  "@about": {},
 
   "actions": "Actions",
   "@actions": {
@@ -31,10 +29,19 @@
     "description": "add stock"
   },
 
+  "address": "Address",
+  "@address": {},
+
+  "appDetails": "App Details",
+  "@appDetails": {},
+
   "attachImage": "Attach Image",
   "@attachImage": {
     "description": "Attach an image"
   },
+
+  "build": "Build",
+  "@build": {},
 
   "cancel": "Cancel",
   "@cancel": {
@@ -130,12 +137,17 @@
   "password": "Password",
   "@password": {},
 
+  "save": "Save",
+  "@save": {
+    "description": "Save"
+  },
+
   "scanBarcode": "Scan Barcode",
   "@scanBarcode": {
   },
 
-  "serverAddress": "Server Address",
-  "@serverAddress": {},
+  "serverDetails": "Server Details",
+  "@serverDetails": {},
 
   "stock": "Stock",
   "@stock": {
@@ -191,8 +203,14 @@
   "server": "Server",
   "@server": {},
 
+  "serverAddress": "Server Address",
+  "@serverAddress": {},
+
   "serverError":  "Server Error",
   "@serverError": {},
+
+  "serverDetails": "Server Details",
+  "@serverDetails": {},
 
   "testResults": "Test Results",
   "@testResults": {
@@ -216,6 +234,9 @@
   "@value": {
     "description": "value"
   },
+
+  "version": "Version",
+  "@version": {},
 
   "website": "Website",
   "@website": {}
