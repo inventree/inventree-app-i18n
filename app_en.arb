@@ -88,6 +88,9 @@
     "description": "history"
   },
 
+  "info": "Info",
+  "@info": {},
+
   "name": "Name",
   "@name": {
   },
@@ -124,9 +127,15 @@
     "description": "part stocK"
   },
 
+  "password": "Password",
+  "@password": {},
+
   "scanBarcode": "Scan Barcode",
   "@scanBarcode": {
   },
+
+  "serverAddress": "Server Address",
+  "@serverAddress": {},
 
   "stock": "Stock",
   "@stock": {
@@ -179,6 +188,12 @@
     "description": "search"
   },
 
+  "server": "Server",
+  "@server": {},
+
+  "serverError":  "Server Error",
+  "@serverError": {},
+
   "testResults": "Test Results",
   "@testResults": {
     "description": ""
@@ -193,6 +208,9 @@
   "@transferStock": {
     "description": "transfer stock"
   },
+
+  "username": "Username",
+  "@username": {},
 
   "value": "Value",
   "@value": {
