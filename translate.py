@@ -88,7 +88,7 @@ def manually_translate(locale, args):
             message = arb_data[key]
 
             try:
-                translation = str(input(f"'{message}' > ")).strip()
+                translation = str(input(f"@{key} - '{message}' > ")).strip()
             except KeyboardInterrupt:
                 keyboard_exited = True
                 break

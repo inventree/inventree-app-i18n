@@ -110,6 +110,9 @@
     "description": "Notes"
   },
 
+  "noResponse": "No Response from Server",
+  "@noResponse": {},
+
   "parent": "Parent",
   "@parent": {},
 
@@ -140,43 +143,16 @@
   "password": "Password",
   "@password": {},
 
-  "save": "Save",
-  "@save": {
-    "description": "Save"
-  },
-
-  "scanBarcode": "Scan Barcode",
-  "@scanBarcode": {
-  },
-
-  "serverDetails": "Server Details",
-  "@serverDetails": {},
-
-  "stock": "Stock",
-  "@stock": {
-    "description": "stock"
-  },
-
-  "stockItem": "Stock Item",
-  "@stockItem": {
-    "description": "stock item title"
-  },
-
-  "stockLocation": "Stock Location",
-  "@stockLocation": {
-    "description": "stock location"
-  },
-
-  "subcategory": "Subcategory",
-  "@subcategory": {},
-
-  "subcategories": "Subcategories",
-  "@subcategories": {},
-
   "quantity": "Quantity",
   "@quantity": {
     "description": "Quantity"
   },
+
+  "refresh": "Refresh",
+  "@refresh": {},
+
+  "refreshing": "Refreshing",
+  "@refreshing": {},
 
   "releaseNotes": "Release Notes",
   "@releaseNotes": {},
@@ -199,10 +175,55 @@
     "description": ""
   },
 
+  "request": "Request",
+  "@request": {},
+
+  "requestingData": "Requesting Data",
+  "@requestingData": {},
+
   "required": "Required",
   "@required": {
     "description": "This field is required"
   },
+
+  "save": "Save",
+  "@save": {
+    "description": "Save"
+  },
+
+  "scanBarcode": "Scan Barcode",
+  "@scanBarcode": {
+  },
+
+  "serverDetails": "Server Details",
+  "@serverDetails": {},
+
+  "status": "Status",
+  "@status": {},
+
+  "statusCode": "Status Code",
+  "@statusCode": {},
+
+  "stock": "Stock",
+  "@stock": {
+    "description": "stock"
+  },
+
+  "stockItem": "Stock Item",
+  "@stockItem": {
+    "description": "stock item title"
+  },
+
+  "stockLocation": "Stock Location",
+  "@stockLocation": {
+    "description": "stock location"
+  },
+
+  "subcategory": "Subcategory",
+  "@subcategory": {},
+
+  "subcategories": "Subcategories",
+  "@subcategories": {},
 
   "search": "Search",
   "@search": {
@@ -226,6 +247,11 @@
 
   "testResults": "Test Results",
   "@testResults": {
+    "description": ""
+  },
+
+  "timeout": "Timeout",
+  "@timeout": {
     "description": ""
   },
 
