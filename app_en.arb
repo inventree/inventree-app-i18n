@@ -263,6 +263,9 @@
   "serverSettings": "Server Settings",
   "@serverSettings": {},
 
+  "settings": "Settings",
+  "@settings": {},
+
   "testResults": "Test Results",
   "@testResults": {
     "description": ""
