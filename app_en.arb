@@ -143,6 +143,21 @@
   "password": "Password",
   "@password": {},
 
+  "profile": "Profile",
+  "@profile": {},
+
+  "profileAdd": "Add Profile",
+  "@profileAdd": {},
+
+  "profileEdit": "Edit Profile",
+  "@profileEdit": {},
+
+  "profileDelete": "Delete Profile",
+  "@profileDelete": {},
+
+  "profileSelect": "Select Profile",
+  "@profileSelect": {},
+
   "quantity": "Quantity",
   "@quantity": {
     "description": "Quantity"
