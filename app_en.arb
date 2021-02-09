@@ -38,6 +38,9 @@
   "appDetails": "App Details",
   "@appDetails": {},
 
+  "appAbout": "About InvenTree",
+  "@appAbout": {},
+
   "attachImage": "Attach Image",
   "@attachImage": {
     "description": "Attach an image"
@@ -108,6 +111,9 @@
   "@name": {
   },
 
+  "notConnected": "Not Connected",
+  "@notConnected": {},
+
   "notes": "Notes",
   "@notes": {
     "description": "Notes"
@@ -115,6 +121,9 @@
 
   "noResponse": "No Response from Server",
   "@noResponse": {},
+
+  "packageName": "Package Name",
+  "@packageName": {},
 
   "parent": "Parent",
   "@parent": {},
@@ -213,8 +222,17 @@
   "@scanBarcode": {
   },
 
+  "serialNumber": "Serial Number",
+  "@serialNumber": {},
+
   "serverDetails": "Server Details",
   "@serverDetails": {},
+
+  "serverInstance": "Server Instance",
+  "@serverInstance": {},
+
+  "serverNotConnected": "Server not connected",
+  "@serverNotConnected": {},
 
   "status": "Status",
   "@status": {},
@@ -232,10 +250,19 @@
     "description": "stock item title"
   },
 
+  "stockItemCreate": "Create Stock Item",
+  "@stockItemCreate": {},
+
   "stockLocation": "Stock Location",
   "@stockLocation": {
     "description": "stock location"
   },
+
+  "stockLocations": "Stock Locations",
+  "@stockLocations": {},
+
+  "stockTopLevel": "Top level stock location",
+  "@stockTopLevel": {},
 
   "subcategory": "Subcategory",
   "@subcategory": {},
@@ -285,6 +312,9 @@
   "@transferStock": {
     "description": "transfer stock"
   },
+
+  "unknownResponse": "Unknown Response",
+  "@unknownResponse": {},
 
   "username": "Username",
   "@username": {},
