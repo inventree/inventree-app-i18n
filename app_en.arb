@@ -63,6 +63,9 @@
   "companies": "Companies",
   "@companies": {},
 
+  "connectionRefused": "Connection Refused",
+  "@connectionRefused": {},
+
   "count": "Count",
   "@count": {
     "description": "Count"
