@@ -46,6 +46,9 @@
     "description": "Attach an image"
   },
 
+  "attention": "Attention",
+  "@attention": {},
+
   "build": "Build",
   "@build": {},
 
@@ -76,11 +79,17 @@
     "description": "Count Stock"
   },
 
+  "damaged": "Damaged",
+  "@damaged": {},
+
   "delete": "Delete",
   "@delete": {},
 
   "description": "Description",
   "@description": {},
+
+  "destroyed": "Destroyed",
+  "@destroyed": {},
 
   "details": "Details",
   "@details": {
@@ -109,6 +118,9 @@
 
   "info": "Info",
   "@info": {},
+
+  "lost": "Lost",
+  "@lost": {},
 
   "name": "Name",
   "@name": {
@@ -183,6 +195,9 @@
 
   "refreshing": "Refreshing",
   "@refreshing": {},
+
+  "rejected": "Rejected",
+  "@rejected": {},
 
   "releaseNotes": "Release Notes",
   "@releaseNotes": {},
