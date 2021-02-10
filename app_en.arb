@@ -101,6 +101,12 @@
     "description": "edit"
   },
 
+  "editCategory": "Edit Category",
+  "@editCategory": {},
+
+  "editLocation": "Edit Location",
+  "@editLocation": {},
+
   "editPart": "Edit Part",
   "@editPart": {
     "description": "edit part"
