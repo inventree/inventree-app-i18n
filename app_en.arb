@@ -274,6 +274,9 @@
     "description": "stock item title"
   },
 
+  "stockItems": "Stock Items",
+  "@stockItems": {},
+
   "stockItemCreate": "Create Stock Item",
   "@stockItemCreate": {},
 
@@ -293,6 +296,12 @@
 
   "subcategories": "Subcategories",
   "@subcategories": {},
+
+  "sublocation": "Sublocation",
+  "@sublocation": {},
+
+  "sublocations": "Sublocations",
+  "@sublocations": {},
 
   "search": "Search",
   "@search": {
