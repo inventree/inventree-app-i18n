@@ -122,8 +122,17 @@
     "description": "history"
   },
 
+  "internalPartNumber": "Internal Part Number",
+  "@internalPartNumber": {},
+
   "info": "Info",
   "@info": {},
+
+  "keywords": "Keywords",
+  "@keywords": {},
+
+  "link": "Link",
+  "@link": {},
 
   "lost": "Lost",
   "@lost": {},
