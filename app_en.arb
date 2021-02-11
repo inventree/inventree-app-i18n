@@ -168,6 +168,9 @@
   "partCategories": "Part Categories",
   "@partCategories": {},
 
+  "partDetails": "Part Details",
+  "@partDetails": {},
+
   "partStock": "Part Stock",
   "@partStock": {
     "description": "part stocK"
