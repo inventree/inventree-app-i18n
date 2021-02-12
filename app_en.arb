@@ -261,7 +261,7 @@
   "@scanBarcode": {
   },
 
-  "scanInfoLocation": "Scan Into Location",
+  "scanIntoLocation": "Scan Into Location",
   "@scanIntoLocation": {},
 
   "serialNumber": "Serial Number",
