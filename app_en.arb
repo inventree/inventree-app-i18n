@@ -41,6 +41,9 @@
   "appAbout": "About InvenTree",
   "@appAbout": {},
 
+  "assignBarcode": "Assign Barcode",
+  "@assignBarcode": {},
+
   "attachImage": "Attach Image",
   "@attachImage": {
     "description": "Attach an image"
@@ -257,6 +260,9 @@
   "scanBarcode": "Scan Barcode",
   "@scanBarcode": {
   },
+
+  "scanInfoLocation": "Scan Into Location",
+  "@scanIntoLocation": {},
 
   "serialNumber": "Serial Number",
   "@serialNumber": {},
