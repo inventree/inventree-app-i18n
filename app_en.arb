@@ -11,10 +11,11 @@
     "description": "OK"
   },
 
-  "save": "Save",
-  "@save": {
-    "description": "Save"
-  },
+  "about": "About",
+  "@about": {},
+
+  "accountDetails": "Account Details",
+  "@accountDetails": {},
 
   "actions": "Actions",
   "@actions": {
@@ -31,10 +32,28 @@
     "description": "add stock"
   },
 
+  "address": "Address",
+  "@address": {},
+
+  "appDetails": "App Details",
+  "@appDetails": {},
+
+  "appAbout": "About InvenTree",
+  "@appAbout": {},
+
+  "assignBarcode": "Assign Barcode",
+  "@assignBarcode": {},
+
   "attachImage": "Attach Image",
   "@attachImage": {
     "description": "Attach an image"
   },
+
+  "attention": "Attention",
+  "@attention": {},
+
+  "build": "Build",
+  "@build": {},
 
   "cancel": "Cancel",
   "@cancel": {
@@ -50,6 +69,9 @@
   "companies": "Companies",
   "@companies": {},
 
+  "connectionRefused": "Connection Refused",
+  "@connectionRefused": {},
+
   "count": "Count",
   "@count": {
     "description": "Count"
@@ -60,8 +82,17 @@
     "description": "Count Stock"
   },
 
+  "damaged": "Damaged",
+  "@damaged": {},
+
+  "delete": "Delete",
+  "@delete": {},
+
   "description": "Description",
   "@description": {},
+
+  "destroyed": "Destroyed",
+  "@destroyed": {},
 
   "details": "Details",
   "@details": {
@@ -72,6 +103,12 @@
   "@edit": {
     "description": "edit"
   },
+
+  "editCategory": "Edit Category",
+  "@editCategory": {},
+
+  "editLocation": "Edit Location",
+  "@editLocation": {},
 
   "editPart": "Edit Part",
   "@editPart": {
@@ -88,14 +125,38 @@
     "description": "history"
   },
 
+  "internalPartNumber": "Internal Part Number",
+  "@internalPartNumber": {},
+
+  "info": "Info",
+  "@info": {},
+
+  "keywords": "Keywords",
+  "@keywords": {},
+
+  "link": "Link",
+  "@link": {},
+
+  "lost": "Lost",
+  "@lost": {},
+
   "name": "Name",
   "@name": {
   },
+
+  "notConnected": "Not Connected",
+  "@notConnected": {},
 
   "notes": "Notes",
   "@notes": {
     "description": "Notes"
   },
+
+  "noResponse": "No Response from Server",
+  "@noResponse": {},
+
+  "packageName": "Package Name",
+  "@packageName": {},
 
   "parent": "Parent",
   "@parent": {},
@@ -119,40 +180,48 @@
   "partCategories": "Part Categories",
   "@partCategories": {},
 
+  "partDetails": "Part Details",
+  "@partDetails": {},
+
   "partStock": "Part Stock",
   "@partStock": {
     "description": "part stocK"
   },
 
-  "scanBarcode": "Scan Barcode",
-  "@scanBarcode": {
-  },
+  "password": "Password",
+  "@password": {},
 
-  "stock": "Stock",
-  "@stock": {
-    "description": "stock"
-  },
+  "profile": "Profile",
+  "@profile": {},
 
-  "stockItem": "Stock Item",
-  "@stockItem": {
-    "description": "stock item title"
-  },
+  "profileAdd": "Add Profile",
+  "@profileAdd": {},
 
-  "stockLocation": "Stock Location",
-  "@stockLocation": {
-    "description": "stock location"
-  },
+  "profileEdit": "Edit Profile",
+  "@profileEdit": {},
 
-  "subcategory": "Subcategory",
-  "@subcategory": {},
+  "profileDelete": "Delete Profile",
+  "@profileDelete": {},
 
-  "subcategories": "Subcategories",
-  "@subcategories": {},
+  "profileSelect": "Select Profile",
+  "@profileSelect": {},
 
   "quantity": "Quantity",
   "@quantity": {
     "description": "Quantity"
   },
+
+  "refresh": "Refresh",
+  "@refresh": {},
+
+  "refreshing": "Refreshing",
+  "@refreshing": {},
+
+  "rejected": "Rejected",
+  "@rejected": {},
+
+  "releaseNotes": "Release Notes",
+  "@releaseNotes": {},
 
   "remove": "Remove",
   "@remove": {
@@ -164,23 +233,124 @@
     "description": "remove stock"
   },
 
+  "reportBug": "Report Bug",
+  "@reportBug": {},
+
   "result": "Result",
   "@result": {
     "description": ""
   },
+
+  "request": "Request",
+  "@request": {},
+
+  "requestingData": "Requesting Data",
+  "@requestingData": {},
 
   "required": "Required",
   "@required": {
     "description": "This field is required"
   },
 
+  "save": "Save",
+  "@save": {
+    "description": "Save"
+  },
+
+  "scanBarcode": "Scan Barcode",
+  "@scanBarcode": {
+  },
+
+  "scanInfoLocation": "Scan Into Location",
+  "@scanIntoLocation": {},
+
+  "serialNumber": "Serial Number",
+  "@serialNumber": {},
+
+  "serverDetails": "Server Details",
+  "@serverDetails": {},
+
+  "serverInstance": "Server Instance",
+  "@serverInstance": {},
+
+  "serverNotConnected": "Server not connected",
+  "@serverNotConnected": {},
+
+  "status": "Status",
+  "@status": {},
+
+  "statusCode": "Status Code",
+  "@statusCode": {},
+
+  "stock": "Stock",
+  "@stock": {
+    "description": "stock"
+  },
+
+  "stockItem": "Stock Item",
+  "@stockItem": {
+    "description": "stock item title"
+  },
+
+  "stockItems": "Stock Items",
+  "@stockItems": {},
+
+  "stockItemCreate": "Create Stock Item",
+  "@stockItemCreate": {},
+
+  "stockLocation": "Stock Location",
+  "@stockLocation": {
+    "description": "stock location"
+  },
+
+  "stockLocations": "Stock Locations",
+  "@stockLocations": {},
+
+  "stockTopLevel": "Top level stock location",
+  "@stockTopLevel": {},
+
+  "subcategory": "Subcategory",
+  "@subcategory": {},
+
+  "subcategories": "Subcategories",
+  "@subcategories": {},
+
+  "sublocation": "Sublocation",
+  "@sublocation": {},
+
+  "sublocations": "Sublocations",
+  "@sublocations": {},
+
   "search": "Search",
   "@search": {
     "description": "search"
   },
 
+  "server": "Server",
+  "@server": {},
+
+  "serverAddress": "Server Address",
+  "@serverAddress": {},
+
+  "serverError":  "Server Error",
+  "@serverError": {},
+
+  "serverDetails": "Server Details",
+  "@serverDetails": {},
+
+  "serverSettings": "Server Settings",
+  "@serverSettings": {},
+
+  "settings": "Settings",
+  "@settings": {},
+
   "testResults": "Test Results",
   "@testResults": {
+    "description": ""
+  },
+
+  "timeout": "Timeout",
+  "@timeout": {
     "description": ""
   },
 
@@ -194,10 +364,19 @@
     "description": "transfer stock"
   },
 
+  "unknownResponse": "Unknown Response",
+  "@unknownResponse": {},
+
+  "username": "Username",
+  "@username": {},
+
   "value": "Value",
   "@value": {
     "description": "value"
   },
+
+  "version": "Version",
+  "@version": {},
 
   "website": "Website",
   "@website": {}
