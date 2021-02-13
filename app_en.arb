@@ -183,9 +183,12 @@
   "partDetails": "Part Details",
   "@partDetails": {},
 
+  "partNotes": "Part Notes",
+  "@partNotes": {},
+
   "partStock": "Part Stock",
   "@partStock": {
-    "description": "part stocK"
+    "description": "part stock"
   },
 
   "password": "Password",
@@ -323,6 +326,9 @@
 
   "stockItemCreate": "Create Stock Item",
   "@stockItemCreate": {},
+
+  "stockItemNotes": "Stock Item Notes",
+  "@stockItemNotes": {},
 
   "stockLocation": "Stock Location",
   "@stockLocation": {
