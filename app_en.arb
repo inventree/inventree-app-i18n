@@ -99,6 +99,9 @@
     "description": "details"
   },
 
+  "documentation": "Documentation",
+  "@documentation": {},
+
   "edit": "Edit",
   "@edit": {
     "description": "edit"
