@@ -123,6 +123,9 @@
     "description": "Error"
   },
 
+  "errorDetails": "Error Details",
+  "@errorDetails": {},
+
   "history": "History",
   "@history": {
     "description": "history"
@@ -281,6 +284,9 @@
   "searchStock": "Search Stock",
   "@searchStock": {},
 
+  "send": "Send",
+  "@send": {},
+
   "serialNumber": "Serial Number",
   "@serialNumber": {},
 
@@ -378,6 +384,9 @@
 
   "unknownResponse": "Unknown Response",
   "@unknownResponse": {},
+
+  "upload": "Upload",
+  "@upload": {},
 
   "username": "Username",
   "@username": {},
