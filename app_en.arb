@@ -52,6 +52,18 @@
   "attention": "Attention",
   "@attention": {},
 
+  "barcodeScanAssign": "Scan to assign barcode",
+  "@barcodeScanAssign": {},
+
+  "barcodeScanGeneral":  "Scan any InvenTree barcode",
+  "@barcodeScanGeneral": {},
+
+  "barcodeScanLocation": "Scan stock location",
+  "@barcodeScanLocation": {},
+
+  "barcodeScanItem": "Scan stock item",
+  "@barcodeScanItem": {},
+
   "build": "Build",
   "@build": {},
 
