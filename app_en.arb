@@ -41,9 +41,6 @@
   "appAbout": "About InvenTree",
   "@appAbout": {},
 
-  "assignBarcode": "Assign Barcode",
-  "@assignBarcode": {},
-
   "attachImage": "Attach Image",
   "@attachImage": {
     "description": "Attach an image"
@@ -52,17 +49,41 @@
   "attention": "Attention",
   "@attention": {},
 
+  "barcodeAssign": "Assign Barcode",
+  "@barcodeAssign": {},
+
+  "barcodeAssigned": "Barcode assigned",
+  "@barcodeAssigned": {},
+
+  "barcodeInUse": "Barcode already assigned",
+  "@barcodeInUse": {},
+
+  "barcodeNoMatch": "No match for barcode",
+  "@barcodeNoMatch": {},
+
+  "barcodeNotAssigned": "Barcode not assigned",
+  "@barcodeNotAssigned": {},
+
   "barcodeScanAssign": "Scan to assign barcode",
   "@barcodeScanAssign": {},
 
-  "barcodeScanGeneral":  "Scan any InvenTree barcode",
+  "barcodeScanGeneral":  "Scan an InvenTree barcode",
   "@barcodeScanGeneral": {},
 
   "barcodeScanLocation": "Scan stock location",
   "@barcodeScanLocation": {},
 
+  "barcodeScanIntoLocationSuccess": "Scanned into location",
+  "@barcodeScanIntoLocationSuccess": {},
+
   "barcodeScanItem": "Scan stock item",
   "@barcodeScanItem": {},
+
+  "barcodeUnassign": "Unassign Barcode",
+  "@barcodeUnassign": {},
+
+  "barcodeUnknown": "Barcode is not recognized",
+  "@barcodeUnknown": {},
 
   "build": "Build",
   "@build": {},
@@ -148,6 +169,18 @@
 
   "info": "Info",
   "@info": {},
+
+  "invalidPart": "Invalid Part",
+  "@invalidPart": {},
+
+  "invalidPartCategory": "Invalid Part Category",
+  "@invalidPartCategory": {},
+
+  "invalidStockLocation": "Invalid Stock Location",
+  "@invalidStockLocation": {},
+
+  "invalidStockItem": "Invalid Stock Item",
+  "@invalidStockItem": {},
 
   "keywords": "Keywords",
   "@keywords": {},
@@ -276,6 +309,9 @@
   "responseInvalid": "Invalid Response Code",
   "@responseInvalid": {},
 
+  "responseUnknown": "Unknown Response",
+  "@responseUnknown": {},
+
   "save": "Save",
   "@save": {
     "description": "Save"
@@ -362,6 +398,12 @@
 
   "stockItemNotes": "Stock Item Notes",
   "@stockItemNotes": {},
+
+  "stockItemUpdateSuccess": "Stock item updated",
+  "@stockItemUpdateSuccess": {},
+
+  "stockItemUpdateFailure": "Stock item update failed",
+  "@stockItemUpdateFailure": {},
 
   "stockLocation": "Stock Location",
   "@stockLocation": {
