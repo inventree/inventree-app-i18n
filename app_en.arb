@@ -273,6 +273,9 @@
     "description": "This field is required"
   },
 
+  "responseInvalid": "Invalid Response Code",
+  "@responseInvalid": {},
+
   "save": "Save",
   "@save": {
     "description": "Save"
@@ -296,6 +299,9 @@
   "searchStock": "Search Stock",
   "@searchStock": {},
 
+  "select": "Select",
+  "@select": {},
+
   "send": "Send",
   "@send": {},
 
@@ -308,11 +314,17 @@
   "serverAddress": "Server Address",
   "@serverAddress": {},
 
+  "serverConnected": "Connected to Server",
+  "@serverConnected": {},
+
   "serverError":  "Server Error",
   "@serverError": {},
 
   "serverDetails": "Server Details",
   "@serverDetails": {},
+
+  "serverOld": "Old Server Version",
+  "@serverOld": {},
 
   "serverSettings": "Server Settings",
   "@serverSettings": {},
@@ -383,6 +395,12 @@
   "@timeout": {
     "description": ""
   },
+
+  "tokenError": "Token Error",
+  "@tokenError": {},
+
+  "tokenMissing": "Missing Token",
+  "@tokenMissing": {},
 
   "transfer": "Transfer",
   "@transfer": {
