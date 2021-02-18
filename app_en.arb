@@ -41,9 +41,6 @@
   "appAbout": "About InvenTree",
   "@appAbout": {},
 
-  "assignBarcode": "Assign Barcode",
-  "@assignBarcode": {},
-
   "attachImage": "Attach Image",
   "@attachImage": {
     "description": "Attach an image"
@@ -51,6 +48,42 @@
 
   "attention": "Attention",
   "@attention": {},
+
+  "barcodeAssign": "Assign Barcode",
+  "@barcodeAssign": {},
+
+  "barcodeAssigned": "Barcode assigned",
+  "@barcodeAssigned": {},
+
+  "barcodeInUse": "Barcode already assigned",
+  "@barcodeInUse": {},
+
+  "barcodeNoMatch": "No match for barcode",
+  "@barcodeNoMatch": {},
+
+  "barcodeNotAssigned": "Barcode not assigned",
+  "@barcodeNotAssigned": {},
+
+  "barcodeScanAssign": "Scan to assign barcode",
+  "@barcodeScanAssign": {},
+
+  "barcodeScanGeneral":  "Scan an InvenTree barcode",
+  "@barcodeScanGeneral": {},
+
+  "barcodeScanLocation": "Scan stock location",
+  "@barcodeScanLocation": {},
+
+  "barcodeScanIntoLocationSuccess": "Scanned into location",
+  "@barcodeScanIntoLocationSuccess": {},
+
+  "barcodeScanItem": "Scan stock item",
+  "@barcodeScanItem": {},
+
+  "barcodeUnassign": "Unassign Barcode",
+  "@barcodeUnassign": {},
+
+  "barcodeUnknown": "Barcode is not recognized",
+  "@barcodeUnknown": {},
 
   "build": "Build",
   "@build": {},
@@ -99,6 +132,9 @@
     "description": "details"
   },
 
+  "documentation": "Documentation",
+  "@documentation": {},
+
   "edit": "Edit",
   "@edit": {
     "description": "edit"
@@ -120,6 +156,9 @@
     "description": "Error"
   },
 
+  "errorDetails": "Error Details",
+  "@errorDetails": {},
+
   "history": "History",
   "@history": {
     "description": "history"
@@ -130,6 +169,18 @@
 
   "info": "Info",
   "@info": {},
+
+  "invalidPart": "Invalid Part",
+  "@invalidPart": {},
+
+  "invalidPartCategory": "Invalid Part Category",
+  "@invalidPartCategory": {},
+
+  "invalidStockLocation": "Invalid Stock Location",
+  "@invalidStockLocation": {},
+
+  "invalidStockItem": "Invalid Stock Item",
+  "@invalidStockItem": {},
 
   "keywords": "Keywords",
   "@keywords": {},
@@ -183,9 +234,12 @@
   "partDetails": "Part Details",
   "@partDetails": {},
 
+  "partNotes": "Part Notes",
+  "@partNotes": {},
+
   "partStock": "Part Stock",
   "@partStock": {
-    "description": "part stocK"
+    "description": "part stock"
   },
 
   "password": "Password",
@@ -252,6 +306,12 @@
     "description": "This field is required"
   },
 
+  "responseInvalid": "Invalid Response Code",
+  "@responseInvalid": {},
+
+  "responseUnknown": "Unknown Response",
+  "@responseUnknown": {},
+
   "save": "Save",
   "@save": {
     "description": "Save"
@@ -261,14 +321,52 @@
   "@scanBarcode": {
   },
 
-  "scanInfoLocation": "Scan Into Location",
+  "scanIntoLocation": "Scan Into Location",
   "@scanIntoLocation": {},
+
+  "search": "Search",
+  "@search": {
+    "description": "search"
+  },
+
+  "searchParts": "Search Parts",
+  "@searchParts": {},
+
+  "searchStock": "Search Stock",
+  "@searchStock": {},
+
+  "select": "Select",
+  "@select": {},
+
+  "send": "Send",
+  "@send": {},
 
   "serialNumber": "Serial Number",
   "@serialNumber": {},
 
+  "server": "Server",
+  "@server": {},
+
+  "serverAddress": "Server Address",
+  "@serverAddress": {},
+
+  "serverConnected": "Connected to Server",
+  "@serverConnected": {},
+
+  "serverError":  "Server Error",
+  "@serverError": {},
+
   "serverDetails": "Server Details",
   "@serverDetails": {},
+
+  "serverOld": "Old Server Version",
+  "@serverOld": {},
+
+  "serverSettings": "Server Settings",
+  "@serverSettings": {},
+
+  "settings": "Settings",
+  "@settings": {},
 
   "serverInstance": "Server Instance",
   "@serverInstance": {},
@@ -298,6 +396,15 @@
   "stockItemCreate": "Create Stock Item",
   "@stockItemCreate": {},
 
+  "stockItemNotes": "Stock Item Notes",
+  "@stockItemNotes": {},
+
+  "stockItemUpdateSuccess": "Stock item updated",
+  "@stockItemUpdateSuccess": {},
+
+  "stockItemUpdateFailure": "Stock item update failed",
+  "@stockItemUpdateFailure": {},
+
   "stockLocation": "Stock Location",
   "@stockLocation": {
     "description": "stock location"
@@ -321,29 +428,6 @@
   "sublocations": "Sublocations",
   "@sublocations": {},
 
-  "search": "Search",
-  "@search": {
-    "description": "search"
-  },
-
-  "server": "Server",
-  "@server": {},
-
-  "serverAddress": "Server Address",
-  "@serverAddress": {},
-
-  "serverError":  "Server Error",
-  "@serverError": {},
-
-  "serverDetails": "Server Details",
-  "@serverDetails": {},
-
-  "serverSettings": "Server Settings",
-  "@serverSettings": {},
-
-  "settings": "Settings",
-  "@settings": {},
-
   "testResults": "Test Results",
   "@testResults": {
     "description": ""
@@ -353,6 +437,12 @@
   "@timeout": {
     "description": ""
   },
+
+  "tokenError": "Token Error",
+  "@tokenError": {},
+
+  "tokenMissing": "Missing Token",
+  "@tokenMissing": {},
 
   "transfer": "Transfer",
   "@transfer": {
@@ -366,6 +456,9 @@
 
   "unknownResponse": "Unknown Response",
   "@unknownResponse": {},
+
+  "upload": "Upload",
+  "@upload": {},
 
   "username": "Username",
   "@username": {},
