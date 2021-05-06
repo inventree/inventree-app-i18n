@@ -1,3 +1,287 @@
 {
-    "@@locale": "en"
+    "@@locale": "en",
+    "appTitle": "InvenTree",
+    "@appTitle": {
+        "description": "InvenTree application title string"
+    },
+    "ok": "OK",
+    "@ok": {
+        "description": "OK"
+    },
+    "about": "Über",
+    "@about": {},
+    "accountDetails": "Konto Details",
+    "@accountDetails": {},
+    "actions": "Aktionen",
+    "@actions": {
+        "description": ""
+    },
+    "add": "Hinzufügen",
+    "@add": {
+        "description": "add"
+    },
+    "addStock": "Bestand hinzufügen",
+    "@addStock": {
+        "description": "add stock"
+    },
+    "address": "Adresse",
+    "@address": {},
+    "appDetails": "App-Informationen",
+    "@appDetails": {},
+    "appAbout": "Über InvenTree",
+    "@appAbout": {},
+    "attachImage": "Bild hinzufügen",
+    "@attachImage": {
+        "description": "Attach an image"
+    },
+    "attention": "Achtung",
+    "@attention": {},
+    "barcodeAssign": "Barcode zuweisen",
+    "@barcodeAssign": {},
+    "barcodeAssigned": "Barcode zugewiesen",
+    "@barcodeAssigned": {},
+    "barcodeInUse": "Barcode wurde bereits zugewiesen",
+    "@barcodeInUse": {},
+    "barcodeNoMatch": "Keine Übereinstimmung für den Barcode",
+    "@barcodeNoMatch": {},
+    "barcodeNotAssigned": "Barcode nicht zugewiesen",
+    "@barcodeNotAssigned": {},
+    "barcodeScanAssign": "Scannen um Barcode zuzuweisen",
+    "@barcodeScanAssign": {},
+    "barcodeScanGeneral": "Einen InvenTree Barcode scannen",
+    "@barcodeScanGeneral": {},
+    "barcodeUnassign": "Barcode entfernen",
+    "@barcodeUnassign": {},
+    "barcodeUnknown": "Barcode wurde nicht erkannt",
+    "@barcodeUnknown": {},
+    "build": "Bauauftrag",
+    "@build": {},
+    "cancel": "Abbrechen",
+    "@cancel": {
+        "description": "Cancel"
+    },
+    "category": "Kategorie",
+    "@category": {},
+    "connectionRefused": "Verbindung verweigert",
+    "@connectionRefused": {},
+    "count": "Zählen",
+    "@count": {
+        "description": "Count"
+    },
+    "countStock": "Bestand zählen",
+    "@countStock": {
+        "description": "Count Stock"
+    },
+    "damaged": "Beschädigt",
+    "@damaged": {},
+    "delete": "Löschen",
+    "@delete": {},
+    "description": "Beschreibung",
+    "@description": {},
+    "destroyed": "Vernichtet",
+    "@destroyed": {},
+    "details": "Details",
+    "@details": {
+        "description": "details"
+    },
+    "documentation": "Dokumentation",
+    "@documentation": {},
+    "edit": "Bearbeiten",
+    "@edit": {
+        "description": "edit"
+    },
+    "editCategory": "Kategorie bearbeiten",
+    "@editCategory": {},
+    "editLocation": "Ort bearbeiten",
+    "@editLocation": {},
+    "editPart": "Teil bearbeiten",
+    "@editPart": {
+        "description": "edit part"
+    },
+    "error": "Fehler",
+    "@error": {
+        "description": "Error"
+    },
+    "errorDetails": "Fehlerdetails",
+    "@errorDetails": {},
+    "history": "Verlauf",
+    "@history": {
+        "description": "history"
+    },
+    "internalPartNumber": "Interne Teilenummer",
+    "@internalPartNumber": {},
+    "info": "Info",
+    "@info": {},
+    "invalidPart": "Ungültiges Teil",
+    "@invalidPart": {},
+    "invalidPartCategory": "Ungültige Teil-Kategorie",
+    "@invalidPartCategory": {},
+    "invalidStockLocation": "Ungültiger Lagerort",
+    "@invalidStockLocation": {},
+    "keywords": "Schlüsselwörter",
+    "@keywords": {},
+    "link": "Link",
+    "@link": {},
+    "lost": "Verloren",
+    "@lost": {},
+    "name": "Name",
+    "@name": {},
+    "notConnected": "Nicht verbunden",
+    "@notConnected": {},
+    "notes": "Notizen",
+    "@notes": {
+        "description": "Notes"
+    },
+    "noResponse": "Keine Antwort vom Server",
+    "@noResponse": {},
+    "part": "Teil",
+    "@part": {
+        "description": "Part (single)"
+    },
+    "parts": "Teile",
+    "@parts": {
+        "description": "Part (multiple)"
+    },
+    "partCategory": "Teil-Kategorie",
+    "@partCategory": {},
+    "partCategories": "Teil-Kategorien",
+    "@partCategories": {},
+    "partDetails": "Teil-Details",
+    "@partDetails": {},
+    "partNotes": "Teil-Bemerkungen",
+    "@partNotes": {},
+    "partStock": "Teilbestand",
+    "@partStock": {
+        "description": "part stock"
+    },
+    "password": "Passwort",
+    "@password": {},
+    "profile": "Profil",
+    "@profile": {},
+    "profileAdd": "Profil hinzufügen",
+    "@profileAdd": {},
+    "profileEdit": "Profil bearbeiten",
+    "@profileEdit": {},
+    "profileDelete": "Profil löschen",
+    "@profileDelete": {},
+    "profileSelect": "Profil auswählen",
+    "@profileSelect": {},
+    "quantity": "Anzahl",
+    "@quantity": {
+        "description": "Quantity"
+    },
+    "refresh": "Neu laden",
+    "@refresh": {},
+    "refreshing": "Aktualisiere",
+    "@refreshing": {},
+    "rejected": "Zurückgewiesen",
+    "@rejected": {},
+    "releaseNotes": "Versionshinweise",
+    "@releaseNotes": {},
+    "remove": "Entfernen",
+    "@remove": {
+        "description": "remove"
+    },
+    "removeStock": "Bestand entfernen",
+    "@removeStock": {
+        "description": "remove stock"
+    },
+    "reportBug": "Fehler melden",
+    "@reportBug": {},
+    "result": "Ergebnis",
+    "@result": {
+        "description": ""
+    },
+    "request": "Anfrage",
+    "@request": {},
+    "requestingData": "Daten werden angefordert",
+    "@requestingData": {},
+    "required": "Erforderlich",
+    "@required": {
+        "description": "This field is required"
+    },
+    "responseInvalid": "Ungültiger Antwort-Code",
+    "@responseInvalid": {},
+    "responseUnknown": "Unbekannte Antwort",
+    "@responseUnknown": {},
+    "save": "Speichern",
+    "@save": {
+        "description": "Save"
+    },
+    "scanBarcode": "Barcode scannen",
+    "@scanBarcode": {},
+    "search": "Suchen",
+    "@search": {
+        "description": "search"
+    },
+    "searchParts": "Teile suchen",
+    "@searchParts": {},
+    "select": "Auswählen",
+    "@select": {},
+    "send": "Senden",
+    "@send": {},
+    "serialNumber": "Seriennummer",
+    "@serialNumber": {},
+    "server": "Server",
+    "@server": {},
+    "serverAddress": "Serveradresse",
+    "@serverAddress": {},
+    "serverConnected": "Verbunden mit Server",
+    "@serverConnected": {},
+    "serverError": "Serverfehler",
+    "@serverError": {},
+    "serverDetails": "Serverdetails",
+    "@serverDetails": {},
+    "serverOld": "Alte Server Version",
+    "@serverOld": {},
+    "serverSettings": "Server Einstellungen",
+    "@serverSettings": {},
+    "settings": "Einstellungen",
+    "@settings": {},
+    "serverInstance": "Server Instanz",
+    "@serverInstance": {},
+    "serverNotConnected": "Server nicht verbunden",
+    "@serverNotConnected": {},
+    "status": "Status",
+    "@status": {},
+    "statusCode": "Statuscode",
+    "@statusCode": {},
+    "subcategory": "Unterkategorie",
+    "@subcategory": {},
+    "subcategories": "Unterkategorien",
+    "@subcategories": {},
+    "testResults": "Testergebnisse",
+    "@testResults": {
+        "description": ""
+    },
+    "timeout": "Zeitüberschreitung",
+    "@timeout": {
+        "description": ""
+    },
+    "tokenError": "Token-Fehler",
+    "@tokenError": {},
+    "tokenMissing": "Token fehlt",
+    "@tokenMissing": {},
+    "transfer": "Verschieben",
+    "@transfer": {
+        "description": "transfer"
+    },
+    "transferStock": "Bestand verschieben",
+    "@transferStock": {
+        "description": "transfer stock"
+    },
+    "unknownResponse": "Unbekannte Antwort",
+    "@unknownResponse": {},
+    "upload": "Hochladen",
+    "@upload": {},
+    "username": "Benutzername",
+    "@username": {},
+    "value": "Wert",
+    "@value": {
+        "description": "value"
+    },
+    "version": "Version",
+    "@version": {},
+    "website": "Website",
+    "@website": {}
 }
